@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/luzzif/mongoose-type-ethereum-address/tree/master.svg?style=svg)](https://circleci.com/gh/luzzif/mongoose-type-ethereum-address/tree/master)
+[![Coverage](https://coveralls.io/repos/github/luzzif/mongoose-type-ethereum-address/badge.svg?branch=master)](https://coveralls.io/repos/github/luzzif/mongoose-type-ethereum-address?branch=master)
+
 # Mongoose Ethereum address type
 
 An Ethereum address field-type for Mongoose schemas.
