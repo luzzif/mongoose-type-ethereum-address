@@ -14,4 +14,4 @@ Object.setPrototypeOf(
     mongoose.SchemaTypes.String.prototype
 );
 
-mongoose.SchemaTypes.EthereumAddress = EthereumAddress;
+mongoose.Schema.Types.EthereumAddress = EthereumAddress;

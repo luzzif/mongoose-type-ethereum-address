@@ -20,7 +20,7 @@ import mongoose from "mongoose";
 import "mongoose-type-ethereum-address";
 
 export const schema = new mongoose.Schema({
-  address: mongoose.SchemaTypes.EthereumAddress
+  address: mongoose.Schema.Types.EthereumAddress
 });
 ```
 
@@ -28,7 +28,7 @@ You can also use it with arrays:
 
 ```js
 export const schema = new mongoose.Schema({
-  addresses: [{ type: mongoose.SchemaTypes.EthereumAddress }]
+  addresses: [{ type: mongoose.Schema.Types.EthereumAddress }]
 });
 ```
 
