@@ -1,0 +1,15 @@
+{
+    "extends": ["eslint:recommended"],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "overrides": [
+        {
+            "files": ["*.test.*"],
+            "env": {
+                "jest": true
+            }
+        }
+    ]
+}

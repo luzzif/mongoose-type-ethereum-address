@@ -1,0 +1,47 @@
+{
+    "name": "mongoose-type-ethereum-address",
+    "version": "1.0.0",
+    "description": "An Ethereum address field-type for Mongoose schemas.",
+    "main": "index.js",
+    "scripts": {
+        "lint:code": "eslint \"src/**/*.js\"",
+        "lint:prettier": "prettier -l src/**/*.js",
+        "lint:commit-message": "commitlint -e",
+        "lint": "yarn lint:commit-message && yarn lint:code && yarn lint:prettier",
+        "lint:ci": "yarn lint:code && yarn lint:prettier",
+        "test": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luzzif/mongoose-type-ethereum-address.git"
+    },
+    "keywords": [
+        "mongoose",
+        "types",
+        "ethereum",
+        "address",
+        "schema"
+    ],
+    "author": "Federico Luzzi <fedeluzzi00@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/luzzif/mongoose-type-ethereum-address/issues"
+    },
+    "homepage": "https://github.com/luzzif/mongoose-type-ethereum-address",
+    "dependencies": {
+        "mongoose": "^5.3.14",
+        "web3-utils": "^1.0.0-beta.52"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^7.5.2",
+        "@commitlint/config-conventional": "^7.5.0",
+        "eslint": "^5.16.0",
+        "husky": "^1.3.1",
+        "jest": "^24.7.1",
+        "prettier": "^1.16.4",
+        "rimraf": "^2.6.3"
+    },
+    "peerDependencies": {
+        "mongoose": "*"
+    }
+}
