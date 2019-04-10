@@ -3,6 +3,7 @@ module.exports = {
     restoreMocks: true,
     clearMocks: true,
     collectCoverage: true,
+    coverageReporters: ["text-lcov"],
     coverageThreshold: {
         global: {
             branches: 100,

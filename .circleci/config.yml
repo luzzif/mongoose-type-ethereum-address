@@ -7,4 +7,4 @@ jobs:
             - checkout
             - run: yarn install --frozen-lockfile
             - run: yarn lint:ci
-            - run: yarn test
+            - run: yarn test:coveralls
