@@ -4,8 +4,8 @@
     "description": "An Ethereum address field-type for Mongoose schemas.",
     "main": "index.js",
     "scripts": {
-        "lint:code": "eslint \"src/**/*.js\"",
-        "lint:prettier": "prettier -l src/**/*.js",
+        "lint:code": "eslint '*.js'",
+        "lint:prettier": "prettier -l *.js",
         "lint:commit-message": "commitlint -e",
         "lint": "yarn lint:commit-message && yarn lint:code && yarn lint:prettier",
         "lint:ci": "yarn lint:code && yarn lint:prettier",
