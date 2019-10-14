@@ -9,13 +9,13 @@ const Account = new mongoose.model(
 );
 
 describe("mongoose type ethereum address", () => {
-    it("sould correctly validate a valid address", done => {
+    it("should correctly validate a valid address", done => {
         new Account({
             address: "0xc1912fee45d61c87cc5ea59dae31190fffff232d"
         }).validate(done);
     });
 
-    it("sould correctly validate an invalid address", () => {
+    it("should correctly validate an invalid address", () => {
         expect(
             new Account({
                 address: "0xC1912fEE45d61C87Cc5EA59DaE31190FFFFf232d"
