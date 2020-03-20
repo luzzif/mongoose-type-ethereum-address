@@ -1,6 +1,6 @@
 {
     "name": "mongoose-type-ethereum-address",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "An Ethereum address field-type for Mongoose schemas.",
     "main": "index.js",
     "scripts": {
